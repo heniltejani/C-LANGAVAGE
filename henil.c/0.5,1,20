@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+	int i,n;
+	float pre;
+	
+	printf("enter your value:");
+	scanf("%d"&n);
+	
+	pre=0.5;
+	printf("%f",pre);
+	
+	for(i=1;i<=n;i++)
+	{
+		if(i%2==1)
+		{
+			new=pre+0.5(i);
+			printf("%f"new);
+			new=pre;
+		}
+	}
+	return 0;3
+	
+	
+}
